@@ -25,7 +25,7 @@ function App() {
             <li></li>
           </ul>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/index" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/chat" element={<ChatBot />} />
           </Routes>

@@ -1,7 +1,7 @@
 .hero {
-  text-align: left;
-  padding: 2rem;
-  height: 00%;
+  text-align: center;
+  padding-right: 2rem;
+  height: 100%;
   width: 100%;
   font-family: montserrat;
 }
@@ -12,23 +12,29 @@ body {
   height: auto;
 }
 
-img {
-  float: right;
-  scale: 6;
-  margin-right: 20%;
-  margin-top: -14%;
-}
-
 .head {
-  font-size: 100px;
+  font-size: 150px;
   color: white;
   text-shadow: white 2px 2px 100px;
-  margin-left: 40px;
+  animation-name: float;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .p {
-  margin-top: 1px;
   color: #00ffff;
   font-size: 50px;
-  margin-left: 40px;
 }

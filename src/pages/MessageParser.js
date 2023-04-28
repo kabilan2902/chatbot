@@ -9,8 +9,17 @@ class MessageParser {
     if (lowerCaseMessage.includes("hello")) {
       this.actionProvider.greet();
     }
-    if (lowerCaseMessage.includes("nep")) {
-      this.actionProvider.nep();
+    if (lowerCaseMessage.includes("create")) {
+      this.actionProvider.create();
+      if (lowerCaseMessage.includes("ipl")) {
+        this.actionProvider.ipl();
+      }
+    }
+    if (lowerCaseMessage.includes("2010")) {
+      this.actionProvider.year();
+    }
+    if (lowerCaseMessage.includes("csk")) {
+      this.actionProvider.favteam();
     }
   }
 }

@@ -3,19 +3,35 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="content">
-      <p>
-        We are a team of developers and designers who have created an AI-based
-        survey platform that uses a chatbot to generate personalized summaries
-        based on your answers. Our goal is to make information more accessible
-        and easier to understand by providing concise and accurate summaries.
-        Our chatbot is designed to ask follow-up questions based on your
-        responses, ensuring that you receive a summary that is tailored to your
-        specific needs. Whether you are looking for a quick overview of a
-        complex topic or need help understanding a particular concept, our
-        chatbot is here to assist you.
-      </p>
-    </div>
+    <>
+      <div className="text">
+        <h1>
+          <span>We</span>
+          <span>are</span>
+          <span>a</span>
+          <span>team</span>
+          <span>of</span>
+          <span>developers</span>
+          <span>and</span>
+          <span>designers</span>
+          <span>who</span>
+          <span>have</span>
+          <span>created</span>
+          <span>an</span>
+          <span>AI</span>
+          <span>based</span>
+          <span>ChatBot</span>
+          <span>to</span>
+          <span>generate</span>
+          <span>personalized</span>
+          <span>summaries</span>
+          <span>based</span>
+          <span>on</span>
+          <span>your</span>
+          <span>answers.</span>
+        </h1>
+      </div>
+    </>
   );
 };
 

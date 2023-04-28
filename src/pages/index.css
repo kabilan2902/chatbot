@@ -8,16 +8,27 @@
 
 body {
   background-color: black;
+  width: auto;
+  height: auto;
 }
 
-h1 {
+img {
+  float: right;
+  scale: 6;
+  margin-right: 20%;
+  margin-top: -14%;
+}
+
+.head {
   font-size: 100px;
   color: white;
   text-shadow: white 2px 2px 100px;
+  margin-left: 40px;
 }
 
 .p {
   margin-top: 1px;
   color: #00ffff;
   font-size: 50px;
+  margin-left: 40px;
 }

@@ -9,6 +9,7 @@
     "bootstrap": "^3.4.1",
     "mdb-react-ui-kit": "^6.0.0",
     "mdbootstrap": "^4.20.0",
+    "openai": "^3.2.1",
     "razorpay": "^2.8.6",
     "react": "^18.2.0",
     "react-chatbot-kit": "^2.1.2",

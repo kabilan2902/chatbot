@@ -94,6 +94,9 @@ bg.circles {
   animation-delay: 0s;
 }
 
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
 .circles li:nth-child(6) {
   left: 75%;
   width: 110px;

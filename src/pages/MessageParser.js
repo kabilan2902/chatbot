@@ -21,6 +21,15 @@ class MessageParser {
     if (lowerCaseMessage.includes("csk")) {
       this.actionProvider.favteam();
     }
+    if (lowerCaseMessage.includes("jadeja")) {
+      this.actionProvider.favplayer();
+    }
+    if (lowerCaseMessage.includes("chepauk")) {
+      this.actionProvider.favstad();
+    }
+    if (lowerCaseMessage.includes("live")) {
+      this.actionProvider.lastmatch();
+    }
   }
 }
 
